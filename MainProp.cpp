@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
        cout<<"Ingrese su Fecha de Nacimiento:"<<endl;
       cin>>fn;
 
-    propietario obj = propietario( nom, ape, dir, tel, fn, n, c);
+    propietario obj = propietario( nom, ape, dir, fn, tel, n, c);
     
     obj.mostrar();  
     obj.agregar();
